@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/MainActivityImageView" />
+
+    <TextView
+       style="@style/WelcomeTextView" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        style="@style/NameEditText"/>
+
+    <Button
+        style="@style/StartButton"
+        android:id="@+id/start_button"
+        android:onClick="startQuiz" />
+</RelativeLayout>

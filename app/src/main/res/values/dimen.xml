@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answerTextSize">16sp</dimen>
+    <dimen name="sidePadding">8dp</dimen>
+    <dimen name="questionTextSize">32sp</dimen>
+    <dimen name="questionBottomPadding">2dp</dimen>
+    <dimen name="answerMargin">16dp</dimen>
+    <dimen name="selectAnswerTextSize">24sp</dimen>
+    <dimen name="buttonMarginBottom">32dp</dimen>
+    <dimen name="welcomeMessageTextSize">18sp</dimen>
+    <dimen name="nameEditTextMarginBottom">54dp</dimen>
+    <dimen name="editTextWidth">88dp</dimen>
+</resources>

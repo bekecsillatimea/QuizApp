@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#1A237E</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AnswerTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/sidePadding</item>
+        <item name="android:paddingRight">@dimen/sidePadding</item>
+        <item name="android:textSize">@dimen/answerTextSize</item>
+        <item name="android:layout_alignBottom">@id/cats_image_view</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <style name="QuestionTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/questionBottomPadding</item>
+        <item name="android:paddingRight">@dimen/sidePadding</item>
+        <item name="android:paddingLeft">@dimen/sidePadding</item>
+        <item name="android:textSize">@dimen/questionTextSize</item>
+        <item name="android:background">#1A237E</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AnswerLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/answerMargin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="InputAnswer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/answerMargin</item>
+        <item name="android:layout_marginLeft">@dimen/answerMargin</item>
+        <item name="android:padding">@dimen/answerMargin</item>
+        <item name="android:textSize">@dimen/selectAnswerTextSize</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd" tools:ignore="NewApi">true</item>
+        <item name="android:layout_marginBottom">@dimen/buttonMarginBottom</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/answerMargin</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="MainActivityImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/dbe5f0727b69487016ffd67a6689e75a</item>
+    </style>
+
+    <style name="WelcomeTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">@dimen/answerMargin</item>
+        <item name="android:layout_marginLeft">@dimen/answerMargin</item>
+        <item name="android:layout_marginTop">@dimen/sidePadding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/welcome_message</item>
+        <item name="android:textSize">@dimen/welcomeMessageTextSize</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <style name="NameEditText">
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/start_button</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:layout_marginBottom">@dimen/nameEditTextMarginBottom</item>
+    </style>
+
+    <style name="StartButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:layout_marginBottom">@dimen/buttonMarginBottom</item>
+        <item name="android:text">@string/start_button</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+</resources>
