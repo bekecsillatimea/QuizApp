@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * Created by beket on 1/24/2018.

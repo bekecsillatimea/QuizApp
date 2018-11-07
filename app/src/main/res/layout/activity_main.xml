@@ -17,6 +17,5 @@
 
     <Button
         style="@style/StartButton"
-        android:id="@+id/start_button"
-        android:onClick="startQuiz" />
+        android:id="@+id/start_button"/>
 </RelativeLayout>

@@ -4,21 +4,68 @@
     <string name="welcome_message">Welcome! This quiz will test your knowledge about cats and help you learn new things. If you are ready enter your name and press the start button!</string>
     <string name="start_button">Start</string>
 
+    <string-array name="questions">
+        <item>1.) How much do cats sleep?</item>
+        <item>2.) Which of the following are the reasons why cats purr?</item>
+        <item>3.) Cats meow to communicate with humans.</item>
+        <item>4.) Cats were worshipped in … ?</item>
+        <item>5.) Cats can jump up to _ times its length.</item>
+        <item>6.) What can a cat do with his ears?</item>
+        <item>7.) Which part of the cat has an unique pattern?</item>
+        <item>8.) The largest litter of kittens produced was nineteen kittens.</item>
+        <item>9.) A cats brain is _ similar to humans.</item>
+        <item>10.) Cats only sweat through their: nose / foot pads / tongue?</item>
+    </string-array>
+
+    <string-array name="firstQuestionAnswers">
+        <item>50% of their lifetime</item>
+        <item>70% of their lifetime</item>
+        <item>85% of their lifetime</item>
+    </string-array>
+
+    <string-array name="secondQuestionAnswers">
+        <item>to self-heal</item>
+        <item>they feel content</item>
+        <item>they are bored</item>
+    </string-array>
+
+    <string-array name="fourthQuestionAnswers">
+        <item>North America</item>
+        <item>Egypt</item>
+        <item>Russia</item>
+    </string-array>
+
+    <string-array name="fifthQuestionAnswers">
+        <item>6</item>
+        <item>2</item>
+        <item>4.5</item>
+    </string-array>
+
+    <string-array name="sixthQuestionAnswers">
+        <item>rotate them 180 degrees</item>
+        <item>make them longer</item>
+        <item>move them separately</item>
+    </string-array>
+
+    <string-array name="seventhQuestionAnswers">
+        <item>paws</item>
+        <item>ears</item>
+        <item>nose</item>
+    </string-array>
+
+    <string-array name="ninthQuestionAnswers">
+        <item>20%</item>
+        <item>50%</item>
+        <item>90%</item>
+    </string-array>
+
     <string name="true_answer">True</string>
     <string name="false_answer">False</string>
 
-    <string name="first_question">1.) How much do cats sleep?</string>
-    <string name="first_question_first_answer">50% of their lifetime</string>
-    <string name="first_question_second_answer">70% of their lifetime</string>
-    <string name="first_question_third_answer">85% of their lifetime</string>
     <string name="first_question_first_correct_answer">Yes indeed, a cat in average spends 70% of his life sleeping. They sure do sleep a lot.</string>
     <string name="first_question_second_correct_answer">Well, it\'s more than half their lifetime, it\'s actually 70%. That seems a lot, right?</string>
     <string name="first_question_third_correct_answer">That\'s a little too much. They spend on average 70% of their lifetime sleeping.</string>
 
-    <string name="second_question">2.) Why do cats purr?</string>
-    <string name="second_question_first_answer">to self-heal</string>
-    <string name="second_question_second_answer">they feel content</string>
-    <string name="second_question_third_answer">they are bored</string>
     <string name="second_question_first_correct_answer">Yes indeed, they do it because they feel content and to self-heal. Prrr!</string>
     <string name="second_question_second_correct_answer">You are partially right, they also do it because they feel content.</string>
     <string name="second_question_third_correct_answer">You are partially right, they also do it to self-heal. Isn\'t that amazing.</string>
@@ -27,29 +74,16 @@
     <string name="second_question_sixth_correct_answer">You are partially right, besides they feel content, they do it to self-heal.</string>
     <string name="second_question_seventh_correct_answer">Well 2 out of 3 is correct, they don\'t do it out of boredom.</string>
 
-    <string name="third_question">3.) True or False: Cats meow to communicate with humans.</string>
     <string name="third_question_first_correct_answer">That is true, they only do it to communicate with us.</string>
     <string name="third_question_second_correct_answer">Actually that is true, they only do it to communicate with us.</string>
 
-    <string name="fourth_question">4.) Cats were worshipped in … ?</string>
-    <string name="fourth_question_first_answer">North America</string>
-    <string name="fourth_question_second_answer">Egypt</string>
-    <string name="fourth_question_third_answer">Russia</string>
     <string name="fourth_question_first_correct_answer">Yes, Egyptians believed cats were magical creatures and capable of bringing good luck.</string>
     <string name="fourth_question_second_correct_answer">They were worshipped in Egypt, they believed cats were magical creatures and capable of bringing good luck.</string>
 
-    <string name="fifth_question">5.) A cat can jump up to _ times its length.</string>
-    <string name="fifth_question_first_answer">6</string>
-    <string name="fifth_question_second_answer">2</string>
-    <string name="fifth_question_third_answer">4.5</string>
     <string name="fifth_question_first_correct_answer">Yes, that\'s right, they can jump up to 2.4 meters.</string>
     <string name="fifth_question_second_correct_answer">That\'s too low, they can jump up to 6 times its length.</string>
     <string name="fifth_question_third_correct_answer">You were close, correct answer it\'s 6 times its length.</string>
 
-    <string name="sixth_question">6.) What can a cat do with his ears?</string>
-    <string name="sixth_question_first_answer">rotate them 180 degrees</string>
-    <string name="sixth_question_second_answer">make them longer</string>
-    <string name="sixth_question_third_answer">move them separately</string>
     <string name="sixth_question_first_correct_answer">That\'s right, they can rotate them 180 degrees and move them separately.</string>
     <string name="sixth_question_second_correct_answer">That\'s right, but they can also move them separately.</string>
     <string name="sixth_question_third_correct_answer">Well not quite, they can rotate them 180 degrees and move them separately, how cool is that.</string>
@@ -58,25 +92,15 @@
     <string name="sixth_question_sixth_correct_answer">Almost got it, they can\'t make them longer, but they can rotate them 180 degrees.</string>
     <string name="sixth_question_seventh_correct_answer">Well 2 out of 3 is correct, they can\'t make them longer.</string>
 
-    <string name="seventh_question">7.) Which part of the cat has an unique pattern?</string>
-    <string name="seventh_question_first_answer">paws</string>
-    <string name="seventh_question_second_answer">ears</string>
-    <string name="seventh_question_third_answer">nose</string>
     <string name="seventh_question_first_correct_answer">That\'s wright, like we humans have an unique fingerprint pattern, they have an unique nose pattern.</string>
     <string name="seventh_question_second_correct_answer">Actually their nose has an unique pattern, like we humans have an unique fingerprint pattern.</string>
 
-    <string name="eighth_question">8.) True or False: The largest litter of kittens produced was nineteen kittens.</string>
     <string name="eighth_question_first_correct_answer">Yes it\'s true. That is a lot a of kittens for a mommy.</string>
     <string name="eighth_question_second_correct_answer">Actually it\'s true. That is a lot a of kittens for a mommy.</string>
 
-    <string name="ninth_question">9.) A cats brain is _ similar to humans.</string>
-    <string name="ninth_question_first_answer">20%</string>
-    <string name="ninth_question_second_answer">50%</string>
-    <string name="ninth_question_third_answer">90%</string>
     <string name="ninth_question_first_correct_answer">You are wright. That is how similar cats brain is to ours.</string>
     <string name="ninth_question_second_correct_answer">Actually it\'s more than that, their brain is 90% similar to ours.</string>
 
-    <string name="tenth_question">10.) Cats only sweat through their nose / foot pads / tongue?</string>
     <string name="tenth_question_first_correct_answer">That is right, they only sweat trough their foot pads.</string>
     <string name="tenth_question_second_correct_answer">No, they don\'t sweat through their  <xliff:g example="nose" id="answer">%s</xliff:g>, they only sweat trough their foot pads. </string>
 

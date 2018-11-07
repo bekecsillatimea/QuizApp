@@ -3,27 +3,29 @@ package com.example.beket.quizapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText nameEditText;
+    @BindView(R.id.name_edit_text) EditText nameEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        nameEditText = (EditText) findViewById(R.id.name_edit_text);
+        ButterKnife.bind(this);
         nameEditText.setText("");
     }
 
-    // starts quiz
-    public void startQuiz(View v){
+    // opens QuizActivity
+    @OnClick(R.id.start_button)
+    public void startQuiz(){
         if(nameEditText.getText().toString().isEmpty()){
-            Toast.makeText(MainActivity.this,"Pleas insert your name!", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this,"Pleas insert your name!", Toast.LENGTH_SHORT).show();
         } else {
             String name = nameEditText.getText().toString().trim();
             Intent startQuizIntent = new Intent(MainActivity.this, QuizActivity.class);
